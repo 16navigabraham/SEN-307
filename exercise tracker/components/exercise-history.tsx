@@ -49,7 +49,7 @@ export default function ExerciseHistory() {
   }
 
   return (
-    <Card>
+    <Card className="border-0 shadow-none bg-transparent">
       <CardHeader>
         <CardTitle>Exercise History</CardTitle>
         <CardDescription>View and manage your past workouts</CardDescription>

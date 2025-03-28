@@ -63,7 +63,7 @@ export default function ProgressChart() {
   const maxDuration = Math.max(...chartData.map((d) => d.duration), 1)
 
   return (
-    <Card>
+    <Card className="border-0 shadow-none bg-transparent">
       <CardHeader>
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>

@@ -68,7 +68,7 @@ export default function AddExercise() {
   }
 
   return (
-    <Card>
+    <Card className="border-0 shadow-none bg-transparent">
       <CardHeader>
         <CardTitle>Add New Exercise</CardTitle>
         <CardDescription>Record your workout details to track your fitness journey</CardDescription>
